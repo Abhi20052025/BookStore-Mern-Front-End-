@@ -1,0 +1,78 @@
+/* Course List Styles */
+.course-table {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.course-image {
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.course-description {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn-group .btn {
+  margin-right: 5px;
+}
+
+.btn-group .btn:last-child {
+  margin-right: 0;
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 8px;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+  padding: 1rem 1.5rem;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+  padding: 1rem 1.5rem;
+}
+
+/* Form Styles */
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Loading and Error States */
+.spinner-border {
+  color: #007bff;
+}
+
+.alert {
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+  
+  .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
